@@ -1,0 +1,70 @@
+body{
+
+    padding: 20px;
+}
+
+header {
+
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+ 
+}
+
+div ul li {
+display: inline;
+}
+
+.HeaderOage{
+
+    padding: 20%;
+}
+
+
+.FrontDev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+
+.Project-Work-Education { 
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.Project-Work-Education div { 
+    flex: 1;
+    background-color: lightgray;
+    height: 600px;
+}
+
+.Reviews { 
+
+    background-color: green;
+    height: 500;
+}
+
+
+.projects {
+    flex-direction: column;
+    display: flex;
+    gap: 1px
+}
+
+.projects div { 
+    flex :1;
+    background-color: bisque;
+    height: 40px;
+}
