@@ -46,13 +46,13 @@ section h2 {
 
 .Project-Work-Education div { 
     flex: 1;
-    background-color: lightgray;
+
     height: 600px;
 }
 
 .Reviews { 
 
-    background-color: green;
+
     height: 500;
 }
 
@@ -65,6 +65,34 @@ section h2 {
 
 .projects div { 
     flex :1;
-    background-color: bisque;
+
     height: 40px;
+}
+
+.projec1,
+.projec2,
+.projec3,
+.projec4,
+.projec5 {
+
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+}
+
+.work{
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work div{
+    flex: 1;
+
+}
+
+h2{
+    font-size: 2cm;
 }
